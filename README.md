@@ -4,7 +4,8 @@ COLLEGE DI HATTI-It is a college marketplace which allows students to buy , sell
 
 # Technical Stack
 HTML,CSS,JAVASCRIPT,BOOTSTRAP
-#Team details
+
+# Team details
 Codersevoke - 5
 
 1.Akshay Sharma- DCH-8338
