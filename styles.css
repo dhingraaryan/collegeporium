@@ -41,6 +41,14 @@
 
 .navbar .nav-item .btn-white {
   box-shadow: 0 1px 10px 1px var(--white-shadow);
+  transition: all 0.2s linear;
+}
+
+.navbar .nav-item .btn-white:hover
+{
+  background-color: #4f3ff0;
+  color: white;
+  box-shadow: 0 2.5px 10px 1px var(--primary-btn-shadow);
 }
 
 .navbar .nav-item .btn-primary {
@@ -48,6 +56,14 @@
   border: none;
   background-color: var(--primary);
   box-shadow: 0 2.5px 10px 1px var(--primary-btn-shadow);
+  transition: all 0.2s linear;
+}
+
+.navbar .nav-item .btn-primary:hover
+{
+  background-color: white;
+  color: black;
+  box-shadow: 0 1px 10px 1px var(--white-shadow);
 }
 
 /* Landing Page */
@@ -88,10 +104,25 @@
   color: white;
   background-color: var(--secondary);
   box-shadow: 0 1px 10px 1px var(--secondary-btn-shadow);
+  transition: all 0.2s linear;
+}
+
+.btns-group .btn-secondary:hover
+{
+  color: black;
+  background-color: white;
+  box-shadow: 0 1px 10px 1px var(--white-shadow);
 }
 
 .btns-group .btn-white {
   box-shadow: 0 1px 10px 1px var(--white-shadow);
+  transition: all 0.2s linear;
+}
+
+.btns-group .btn-white:hover
+{
+  background-color: #f53b57;
+  color: white;
 }
 
 .fa-arrow-right {
@@ -171,6 +202,14 @@
   color: white;
   background-color: var(--secondary);
   box-shadow: 0 1px 10px 1px var(--secondary-btn-shadow);
+  transition: all 0.2s linear;
+}
+
+.card .btn-secondary:hover
+{
+  color: black;
+  background-color: white;
+  box-shadow: 0 1px 10px 1px var(--white-shadow);
 }
 
 /* Branches */
@@ -185,6 +224,14 @@
   color: white;
   background-color: var(--secondary);
   box-shadow: 0 1px 10px 1px var(--secondary-btn-shadow);
+  transition: all 0.2s linear;
+}
+
+#branches .btn-secondary:hover
+{
+  color: black;
+  background-color: white;
+  box-shadow: 0 1px 10px 1px var(--white-shadow);
 }
 
 #branches .branch-cards .card {
